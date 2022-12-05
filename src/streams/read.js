@@ -10,7 +10,7 @@ const read = async () => {
     });
 
     readStream.on('close', () => {
-        console.log("Stream is finished");
+        console.log("\n\nStream is finished");
     });
 };
 
